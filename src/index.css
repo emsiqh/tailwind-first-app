@@ -128,3 +128,13 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.nav:hover {
+  color: rgb(59, 205, 219);
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(163, 187, 202);
+  transform: translateY(-0.5em);
+}
