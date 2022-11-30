@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, ScrollToTop, Hero } from './components';
+import { Navbar, ScrollToTop, Hero, Features, Tabs } from './components';
 
 const App = () =>
 (
@@ -14,6 +14,13 @@ const App = () =>
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
+      </div>
+    </div>
+
+    <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Features />
+        <Tabs />
       </div>
     </div>
   </div>
