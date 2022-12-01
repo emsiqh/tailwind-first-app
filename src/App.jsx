@@ -1,5 +1,7 @@
 import styles from "./style";
-import { Navbar, ScrollToTop, Hero, Features, Tabs } from './components';
+import { Navbar, ScrollToTop, Hero, Tabs, Heading, DownloadBox } from './components';
+
+import { quotes } from "./constants";
 
 const App = () =>
 (
@@ -19,8 +21,11 @@ const App = () =>
 
     <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Features />
+        <Heading idtag='features' h2tag='Features' ptag={quotes.features} />
         <Tabs />
+        <Heading idtag='download' h2tag='Download' ptag={quotes.download} />
+        <DownloadBox />
+        <Heading idtag='faq' h2tag='Frequently Asked Questions' ptag={quotes.faq} />
       </div>
     </div>
   </div>

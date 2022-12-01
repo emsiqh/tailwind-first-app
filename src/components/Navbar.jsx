@@ -5,7 +5,7 @@ import { navLinks } from "../constants";
 import { Button } from "../components";
 
 const Navbar = () => {
-    const [active, setActive] = useState("Home");
+    const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
 
     return (

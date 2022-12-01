@@ -1,10 +1,6 @@
-import { tab1, tab2, tab3 } from "../assets";
+import { tab1, tab2, tab3, chrome, firefox, opera } from "../assets";
 
 export const navLinks = [
-    {
-        id: "home",
-        title: "Home",
-    },
     {
         id: "features",
         title: "Features",
@@ -42,3 +38,27 @@ export const tabLinks = [
         desc: "Easily share your bookmarks and collections with others. Create a shareable a link that you can send at the click of a button.",
     }
 ];
+
+export const quotes = {
+    features: "Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.",
+    download: "We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.",
+    faq: "Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.",
+};
+
+export const browsers = [
+    {
+        id: "chrome",
+        version: 62,
+        img: chrome,
+    },
+    {
+        id: "firefox",
+        version: 55,
+        img: firefox,
+    },
+    {
+        id: "opera",
+        version: 46,
+        img: opera,
+    },
+]

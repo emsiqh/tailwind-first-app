@@ -4,7 +4,7 @@ import Button from "./Button";
 import { heroImg } from "../assets";
 
 const Hero = () => (
-    <section id="home" className={layout.section}>
+    <section id="#" className={layout.section}>
         {/* content */}
         <div className={layout.sectionInfo}>
             <h2 className={`${styles.heading2}`}>
