@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, ScrollToTop, Hero, Tabs, Heading, DownloadBox } from './components';
+import { Navbar, ScrollToTop, Hero, Tabs, Heading, DownloadBox, FAQ } from './components';
 
 import { quotes } from "./constants";
 
@@ -26,6 +26,7 @@ const App = () =>
         <Heading idtag='download' h2tag='Download' ptag={quotes.download} />
         <DownloadBox />
         <Heading idtag='faq' h2tag='Frequently Asked Questions' ptag={quotes.faq} />
+        <FAQ />
       </div>
     </div>
   </div>

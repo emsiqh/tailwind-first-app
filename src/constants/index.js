@@ -42,7 +42,7 @@ export const tabLinks = [
 export const quotes = {
     features: "Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.",
     download: "We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.",
-    faq: "Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.",
+    faq: "Here are some of our FAQs. If you have any other questions please feel free to email us.",
 };
 
 export const browsers = [
@@ -60,5 +60,28 @@ export const browsers = [
         id: "opera",
         version: 46,
         img: opera,
+    },
+];
+
+export const questions = [
+    {
+        id: "q1",
+        q: "What is Bookmark?",
+        a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?",
+    },
+    {
+        id: "q2",
+        q: "How can I request a new browser?",
+        a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?",
+    },
+    {
+        id: "q3",
+        q: "Is there a mobile app?",
+        a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?",
+    },
+    {
+        id: "q4",
+        q: "What about other Chromium browsers",
+        a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?",
     },
 ]

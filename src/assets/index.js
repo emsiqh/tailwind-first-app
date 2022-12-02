@@ -13,6 +13,7 @@ import tab3 from "./tab3.svg";
 import chrome from "./logo-chrome.svg";
 import firefox from "./logo-firefox.svg";
 import opera from "./logo-opera.svg";
+import arrowDown from "./icon-arrow.svg";
 
 export {
   logo,
@@ -30,4 +31,5 @@ export {
   chrome,
   firefox,
   opera,
+  arrowDown,
 };

@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Tabs from "./Tabs";
 import Heading from "./Heading";
 import DownloadBox from "./DownloadBox";
+import FAQ from "./FAQ";
 
 export {
     Navbar,
@@ -14,4 +15,5 @@ export {
     Tabs,
     Heading,
     DownloadBox,
+    FAQ,
 }
