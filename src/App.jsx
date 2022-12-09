@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, ScrollToTop, Hero, Tabs, Heading, DownloadBox, FAQ } from './components';
+import { Navbar, ScrollToTop, Hero, Tabs, Heading, DownloadBox, FAQ, Newsletter } from './components';
 
 import { quotes } from "./constants";
 
@@ -27,6 +27,12 @@ const App = () =>
         <DownloadBox />
         <Heading idtag='faq' h2tag='Frequently Asked Questions' ptag={quotes.faq} />
         <FAQ />
+      </div>
+    </div>
+
+    <div className={`bg-blueGradient ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Newsletter />
       </div>
     </div>
   </div>
